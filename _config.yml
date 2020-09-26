@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 魚尾尾小天地
+title: 魚尾尾教學區
 subtitle: ''
 description: ''
 keywords:
 author: Yuweiwei
-language: zh_TW
+language: 'zh-TW'
 timezone: 'Asia/Taipei'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://yuweiwei.net
+url: https://yuweiwei.net/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: miho
+theme: stun
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
