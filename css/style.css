@@ -1156,7 +1156,7 @@ body {
 }
 .article-more-link:hover {
   opacity: 0.8;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.09), 0 4px 10px rgba(0,0,0,0.17);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.09), 0 4px 10px rgba(0,0,0,0.6);
   text-shadow: 0 1px #1e7293;
 }
 .article-footer {
@@ -2062,7 +2062,7 @@ pre .javascript .function {
     top: 0;
     right: 0;
     height: 100%;
-    background: rgba(0,0,0,0.17);
+    background: rgba(0,0,0,0.6);
     color: #fff;
     cursor: default;
     z-index: 1;
@@ -2273,7 +2273,7 @@ pre .javascript .function {
 }
 .sidebar div:hover {
   opacity: 0.8;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.09), 0 4px 10px rgba(0,0,0,0.17);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.09), 0 4px 10px rgba(0,0,0,0.6);
   text-shadow: 0 1px #1e7293;
 }
 .sidebar-menu-box {
@@ -2284,7 +2284,7 @@ pre .javascript .function {
   left: 0;
   width: 100%;
   overflow: hidden;
-  background: rgba(0,0,0,0.17);
+  background: rgba(0,0,0,0.6);
 }
 .sidebar-menu-box .sidebar-menu-box-container {
   max-width: 920px;
