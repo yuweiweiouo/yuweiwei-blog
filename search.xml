@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>[ep2] PHP經典設計模式 - 單例模式</title>
+      <link href="2020/09/27/design-pattern/ep2/"/>
+      <url>2020/09/27/design-pattern/ep2/</url>
+      
+        <content type="html"><![CDATA[        <h1 id="單例模式-Singleton-Pattern"   >          <a href="#單例模式-Singleton-Pattern" class="heading-link"><i class="fas fa-link"></i></a>單例模式 ( Singleton Pattern )</h1>      ]]></content>
+      
+      
+      <categories>
+          
+          <category> PHP經典設計模式 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 設計模式 </tag>
+            
+            <tag> PHP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>[ep1] PHP經典設計模式 - 前言</title>
+      <link href="2020/09/26/design-pattern/ep1/"/>
+      <url>2020/09/26/design-pattern/ep1/</url>
+      
+        <content type="html"><![CDATA[        <h2 id="什麼是設計模式？"   >          <a href="#什麼是設計模式？" class="heading-link"><i class="fas fa-link"></i></a>什麼是設計模式？</h2>      <p>設計模式是在開發軟體時對常遇到的問題所提出的解決方案。設計模式並不是直接用來完成程式碼的編寫，而是描述在各種不同情況下，要怎麼解決問題的一種方案。</p><a id="more"></a>        <h2 id="設計模式的三大類型"   >          <a href="#設計模式的三大類型" class="heading-link"><i class="fas fa-link"></i></a>設計模式的三大類型</h2>      <p>以下是 GOF 設計模式裡歸類的 3 大分類，共 23 種設計模式，粗體為比較常會用到的幾種模式</p>        <h3 id="創建型-Creational-Pattern"   >          <a href="#創建型-Creational-Pattern" class="heading-link"><i class="fas fa-link"></i></a>創建型 ( Creational Pattern )</h3>      <blockquote><p>白話：跟建立物件相關的模式</p></blockquote><ul><li><strong>單例模式 ( Singleton Pattern )</strong></li><li>工廠方法模式 ( Factory Method Pattern )</li><li>抽象工廠模式 ( Abstract Factory Pattern )</li><li><strong>建造者模式 ( Builder Pattern )</strong></li><li>原型模式 ( Prototype Pattern )</li></ul>        <h3 id="結構型-Structural-Patterns"   >          <a href="#結構型-Structural-Patterns" class="heading-link"><i class="fas fa-link"></i></a>結構型 ( Structural Patterns )</h3>      <blockquote><p>白話：物件之間繼承、依賴的模式</p></blockquote><ul><li><strong>轉接器模式 ( Adapter Pattern )</strong></li><li>組合模式 ( Composite Pattern )</li><li>代理模式 ( Proxy Pattern )</li><li><strong>橋接模式 ( Bridge Pattern )</strong></li><li>裝飾模式 ( Decorator Pattern )</li><li><strong>門面模式 ( Facade Pattern )</strong></li><li>享元模式 ( Flyweight Pattern )</li></ul>        <h3 id="行為型-Behavioral-Pattern"   >          <a href="#行為型-Behavioral-Pattern" class="heading-link"><i class="fas fa-link"></i></a>行為型 ( Behavioral Pattern )</h3>      <blockquote><p>白話：物件之間互動的模式</p></blockquote><ul><li><strong>迭代器模式 ( Iterator Pattern )</strong></li><li><strong>命令模式 ( Command Pattern )</strong></li><li>解釋器模式 ( Interpreter Pattern )</li><li>責任鏈模式 ( Chain of Responsibility )</li><li><strong>觀察者模式 ( Observer Pattern )</strong></li><li>中介者模式 ( Mediator Pattern )</li><li>備忘錄模式 ( Memento Pattern )</li><li>狀態模式 ( State Pattern )</li><li><strong>策略模式 ( Strategy Pattern )</strong></li><li>模板方法模式 ( Template Method Pattern )</li><li>訪問者模式 ( Visitor Pattern )</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> PHP經典設計模式 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 設計模式 </tag>
+            
+            <tag> PHP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="2020/09/26/hello-world/"/>
+      <url>2020/09/26/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <span class="exturl"><a class="exturl__link"   href="https://hexo.io/" >Hexo</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>! This is your very first post. Check <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/" >documentation</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> or you can ask me on <span class="exturl"><a class="exturl__link"   href="https://github.com/hexojs/hexo/issues" >GitHub</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>.</p><a id="more"></a>        <h2 id="Quick-Start"   >          <a href="#Quick-Start" class="heading-link"><i class="fas fa-link"></i></a>Quick Start</h2>              <h3 id="Create-a-new-post"   >          <a href="#Create-a-new-post" class="heading-link"><i class="fas fa-link"></i></a>Create a new post</h3>      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></div></figure><p>More info: <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/writing.html" >Writing</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>        <h3 id="Run-server"   >          <a href="#Run-server" class="heading-link"><i class="fas fa-link"></i></a>Run server</h3>      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></div></figure><p>More info: <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/server.html" >Server</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>        <h3 id="Generate-static-files"   >          <a href="#Generate-static-files" class="heading-link"><i class="fas fa-link"></i></a>Generate static files</h3>      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></div></figure><p>More info: <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/generating.html" >Generating</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>        <h3 id="Deploy-to-remote-sites"   >          <a href="#Deploy-to-remote-sites" class="heading-link"><i class="fas fa-link"></i></a>Deploy to remote sites</h3>      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></div></figure><p>More info: <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 教學 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
